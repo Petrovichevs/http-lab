@@ -10,6 +10,7 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <sys/stat.h>
 
 #define MAX_WHITELIST 10
 #define MAX_CHILDREN 100
